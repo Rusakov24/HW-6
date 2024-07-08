@@ -12,7 +12,7 @@ public class Main {
         for (int i = 0; i <= 17; i += 2) {
             System.out.println("Интерация цикла " + i);
         }
-        System.out.println("ЗАдание 4");
+        System.out.println("Задание 4");
         for (int i = 10; i >= -10; i--) {
             System.out.println("Интерация цикла " + i);
         }
@@ -41,7 +41,7 @@ public class Main {
 
         System.out.println("Задание 9");
         int salary2= 29000;
-        int total2 = 0;
+        double total2 = 0.01;
         for (int i = 0; i < 12; i++) {
             total2 = total2 + total2 / 100;
             total2 = total2 + salary2;
